@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 2 of the app. and I am running from Openshift!' + '\n';
+    response = 'This is version 3 of the app. Openshift is really easy to work with' + '\n';
 
     //send the response to the client
     res.send(response);
